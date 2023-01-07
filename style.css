@@ -3,6 +3,7 @@
   padding: 0;
   font-family: 'Work Sans', sans-serif;
 }
+/* header styles */
 .header{
   background-image: url(banner2.png);
   /* background-repeat: no-repeat;
@@ -42,6 +43,8 @@
   margin-bottom: 160px;
   margin-right: 1230;
 }
+
+/* about styles */
 .about-img{
   margin-left: 250px;
 }
@@ -72,6 +75,7 @@
   border-radius: 5px;
 }
 
+/* failuers styles */
 .failuers{
   display: flex;
   margin-left: 200px;
@@ -99,13 +103,14 @@ height: 24px;
 width: 24px;
 }
 
+/* plan styles */
 .plan-header{
   text-align: center;
   margin-bottom: 35px;
   font-weight: 600;
   font-size: 25px;
 }
-.abouts{
+.plan-div{
   display: flex;
   margin-left: 300px;
   max-width: 1000px;
@@ -123,20 +128,21 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 color: rgb(146, 158, 158);
 margin-bottom: 120px;
 }
+
+/* time styles */
 .time{
   background-image: url(watch.png);
-  /* background: linear-gradient(40deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
   border-radius: 7px;
   background-repeat: no-repeat;
   margin-bottom: 120px;
   max-width: 900px;
   margin-left: 190px;
-  
 }
 .time-header{
   padding-top: 50px;
   padding-left: 40px;
   padding-bottom: 24px;
+  color: #FFFFFF;
 }
 .time-btn{
   background: #FFFFFF;
